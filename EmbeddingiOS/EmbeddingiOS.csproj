@@ -7,4 +7,9 @@
 		<SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
 		<UseMaui>true</UseMaui>
 	</PropertyGroup>
+	<ItemGroup>
+	  <Compile Include="..\EmbeddingAndroid\MyMauiPage.cs">
+	    <Link>MyMauiPage.cs</Link>
+	  </Compile>
+	</ItemGroup>
 </Project>
