@@ -9,7 +9,8 @@ internal class MyMauiPage : ContentPage
 		{
 			Text = "Hello from Maui!",
 			HorizontalOptions = LayoutOptions.Center,
-			VerticalOptions = LayoutOptions.Center
+			VerticalOptions = LayoutOptions.Center,
+			TextColor = Colors.Fuchsia
 		};
 
 		var button = new Button
